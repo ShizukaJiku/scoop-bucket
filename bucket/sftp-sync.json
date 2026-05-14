@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Sincronizador de carpetas multi-PC sobre SFTP, estilo Git.",
     "homepage": "https://github.com/ShizukaJiku/sftp-sync",
     "license": "MIT",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ShizukaJiku/sftp-sync/releases/download/v1.0.2/sftp-sync-windows-x64.exe#/sftp-sync.exe",
-            "hash": "93bb6f4503a25ff9b7f24e3578a54491a9af74144f5824b6d3a1896eed91e851"
+            "url": "https://github.com/ShizukaJiku/sftp-sync/releases/download/v1.0.3/sftp-sync-windows-x64.exe#/sftp-sync.exe",
+            "hash": "b178de8651c0662cebd7b56ff751ac65a86afed29c562183247f8783fb2e1deb"
         }
     },
     "bin": "sftp-sync.exe",
