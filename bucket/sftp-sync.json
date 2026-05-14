@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "description": "Sincronizador de carpetas multi-PC sobre SFTP, estilo Git.",
+    "homepage": "https://github.com/ShizukaJiku/sftp-sync",
+    "license": "MIT",
+    "notes": [
+        "Binario native-image (GraalVM JDK 25 + Apache MINA SSHD).",
+        "Requiere CPU Intel Haswell (2013+) o AMD Excavator (2015+) por -march=x86-64-v3.",
+        "Probá la instalación con: sftp-sync --help"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ShizukaJiku/sftp-sync/releases/download/v1.0.0/sftp-sync-windows-x64.exe#/sftp-sync.exe",
+            "hash": "063ee51af5056d16f074308ff19eefd3233bd8bc109e60a08be4966c90222fae"
+        }
+    },
+    "bin": "sftp-sync.exe",
+    "checkver": {
+        "github": "https://github.com/ShizukaJiku/sftp-sync"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ShizukaJiku/sftp-sync/releases/download/v$version/sftp-sync-windows-x64.exe#/sftp-sync.exe"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
